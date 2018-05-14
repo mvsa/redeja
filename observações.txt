@@ -1,0 +1,14 @@
+Como referenciar o Material Design lite nos arquivos:
+
+<link rel="stylesheet" href="assets/mdl/material.min.css">
+<script src="assets/mdl/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+Icones do material Design:
+https://materializecss.com/icons.html
+https://material.io/tools/icons/?icon=done&style=baseline
