@@ -12,3 +12,18 @@ Como referenciar o Material Design lite nos arquivos:
 Icones do material Design:
 https://materializecss.com/icons.html
 https://material.io/tools/icons/?icon=done&style=baseline
+
+
+
+
+
+comandos git - 
+
+git checkout -b "nome" - cria uma branch
+git checkout master muda para a branch escolhida ( em exmplo a master)
+
+git add -A - adiciona todas as alterações realizadas para o git
+git commit -m "nome" - realiza o commit
+git push origin "nome branch" - faz o push para o github
+
+mais comandos: https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
