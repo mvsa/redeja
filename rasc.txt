@@ -1,0 +1,22 @@
+CREATE TABLE `locais_noticias` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `local_fk` int(10) NOT NULL,
+  `noticia_fk` int (10) NOT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (local_fk) REFERENCES locais(id)
+  FOREIGN KEY (noticia_fk) REFERENCES noticias(id)
+)
+
+SELECT u.*, s.*
+FROM users u
+    inner join statuses s on u.status_id = s.id
+WHERE u.status_id = 2
+
+
+
+   //var segunda = document.getElementById('SecondPage');
+                   //var primeira = document.getElementById('firstPage');
+                   //primeira.innerHTML = segunda.innerHTML;
+               }
+               
+                window.location.replace("questBuild.php?dd=io");

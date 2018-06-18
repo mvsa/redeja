@@ -48,7 +48,7 @@
 					 mysqli_query($conn, "INSERT INTO user_roles (user_fk, role_fk)VALUES ('$userInserted',1)");
                    // session_start();
 					//$_SESSION['username'] = $name; // Initializing Session
-					//header("location: home.php"); // Redirecting To Other Page
+				
 				//	mysqli_close($con);
 					
 					
@@ -60,7 +60,7 @@
 						}
 					
 				
-					
+							header("location: ../views/home.php"); // Redirecting To Other Page	
 				}
 			}
             

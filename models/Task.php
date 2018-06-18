@@ -6,6 +6,7 @@
  
     class Local{
     	
+    	private $type
         private $id;
         private $name;
         private $ltd;

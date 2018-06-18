@@ -87,7 +87,7 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/helpers/queries.php');
                  </div>
     
                  
-                  <input  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" name="signup"  class="btn btn-info btn-fill ">
+                  <input  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="Enviar" type="submit" name="signup"  class="btn btn-info btn-fill ">
           
         </form>
 

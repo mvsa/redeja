@@ -8,29 +8,30 @@
     	
         private $id;
         private $nome;
+        private $imagem;
        
         
         
    
         
         
-        public function create($conn,$Nome){
+        public function create($conn,$Nome,$Imagem){
    
         
    
             
             $this->nome = mysqli_real_escape_string($conn, $Nome);
-		
+			$this->imagem = mysqli_real_escape_string($conn,$Imagem);
             
             
             
        
-				$query = mysqli_query($conn, "INSERT INTO preferences (nome)VALUES('$this->nome')");
+				$query = mysqli_query($conn, "INSERT INTO preferences (nome,imagem)VALUES('$this->nome','$this->imagem')");
 				if($query)
 				{
 
 
-					//$lastid = mysqli_insert_id($conn);
+				header("location:../../home.php");
 					
 				
 				
@@ -40,15 +41,15 @@
             
         }
         
-            public function update($conn,$Nome){
+            public function update($conn,$Id,$Nome,$Imagem){
 			
 		
 			$this->id = $Id;
 			 $this->nome = mysqli_real_escape_string($conn, $Nome);
-		
+			$this->imagem = mysqli_real_escape_string($conn,$Imagem);
 			
 			
- 			$query = mysqli_query($conn,"UPDATE preferences SET nome = '$this->nome' WHERE preferences.id = '$this->id' ");
+ 			$query = mysqli_query($conn,"UPDATE preferences SET nome = '$this->nome',imagem = '$this->image' WHERE preferences.id = '$this->id' ");
  			if($query){
  			
  			}
