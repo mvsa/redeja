@@ -1,7 +1,7 @@
 <?php
  $Questions = $_GET['qst'];
  $Alternatives = $_GET['alts'];
- 
+ $newsId = $_GET['nId'];
 
  
 ?>
@@ -43,16 +43,22 @@
       
       <form method ="POST" action="../../controllers/surveyController.php">
               <input  type="hidden" name="type" value="simples">
+              <input  type="hidden" name="qtdPerguntas" value="<?php echo $Questions; ?>">
+              <input  type="hidden" name="qtdAlternativas" value="<?php echo $Alternatives; ?>">
+               <input  type="hidden" name="newsId" value="<?php echo $newsId; ?>">
               <div class="mdl-card__supporting-text">
            
-                <?php for ($i=0;$i<$Questions;$i++){  ?>
+                <?php for ($i=1;$i<=$Questions;$i++){  ?>
                     <br>
                       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input required class="mdl-textfield__input" type="text" name="titulo" id="titulo">
-                        <label class="mdl-textfield__label" for="titulo">Título da Questão</label>
+                        <input required class="mdl-textfield__input" type="text" name="titulo<?php echo $i; ?>" id="titulo<?php echo $i; ?>">
+                        <label class="mdl-textfield__label" for="titulo<?php echo $i; ?>">Título da Questão</label>
+                        <p style="width:300px">
+                            <input class="mdl-slider mdl-js-slider" type="range" name="dif<?php echo $i; ?>" id="s<?php echo $i; ?>" min="1" max="5" value="1" step="1">
+                          </p>
                       </div>
                     
-                   <?php for ($j=0;$j<$Alternatives;$j++){  ?>
+                   <?php for ($j=1;$j<=$Alternatives;$j++){  ?>
                      <br>
                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-<?php echo $i.$j; ?>">
                           <input required type="radio" id="option-<?php echo $i.$j; ?>" class="mdl-radio__button" name="check<?php echo $i; ?>" value="<?php echo $i.$j; ?>">

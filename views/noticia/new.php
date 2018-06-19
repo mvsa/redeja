@@ -57,9 +57,11 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/helpers/queries.php');
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                     <select class="mdl-textfield__input" id="dificuldade" name="dificuldade">
                       <option></option>
-                      <option value="1">Iniciante</option>
-                      <option value="2">Intermediário</option>
-                      <option value="3">Avançado</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                       <option value="4">4</option>
+                        <option value="5">5</option>
                     </select>
                     <label class="mdl-textfield__label" for="dificuldade">Dificuldade</label>
                   </div>

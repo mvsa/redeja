@@ -20,3 +20,34 @@ WHERE u.status_id = 2
                }
                
                 window.location.replace("questBuild.php?dd=io");
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                CREATE TABLE `questionario_simples` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `noticia_fk` int (10) NOT NULL,
+   `enunciado` varchar (200) NOT NULL, 
+   `dificuldade` int (10) NOT NULL,	 
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (noticia_fk) REFERENCES noticias(id)
+),
+
+CREATE TABLE `questionario_simples_alternativas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `questao_fk` int (10) NOT NULL,
+   `alternativa` varchar (200) NOT NULL, 
+   `is_correta` tinyint NOT NULL,	 
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (questao_fk) REFERENCES questionario_simples(id)
+)

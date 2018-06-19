@@ -1,5 +1,5 @@
 <?php
- $NewsId = $_GET['dd'];
+ $newsId = $_GET['dd'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -85,7 +85,10 @@
 
         </form>
         
-         
+         <script>
+             var newsid = <?php echo $newsId ?> 
+             
+         </script>
         
       
            <script>
@@ -111,7 +114,7 @@
                 );
          
                 function nextPage(){
-                  window.location.href = 'questBuild.php?qst='+qst+'&&alts='+alts;
+                  window.location.href = 'questBuild.php?qst='+qst+'&&alts='+alts+'&&nId='+newsid;
                 }
                    
                    
