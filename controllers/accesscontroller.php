@@ -6,7 +6,9 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/db/db.php');
    
 
 if($_POST['login']){
-    echo "oi";
+    $user = new User();
+    $user->login($conn,$_POST['email'],$_POST['senha']);
+    unset($user);
 }
 
 

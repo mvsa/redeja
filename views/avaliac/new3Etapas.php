@@ -1,9 +1,6 @@
 <?php
- $Questions = $_GET['qst'];
- $Alternatives = $_GET['alts'];
- $newsId = $_GET['nId'];
+ $newsId = $_GET['dd'];
 
- 
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,7 +25,7 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Novo Questionário</span>
+      <span class="mdl-layout-title">Questionário de 3 Etapas</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
      
@@ -42,48 +39,50 @@
       
      
       
-      <form method ="POST" action="../../controllers/surveyController.php">
-              <input  type="hidden" name="type" value="simples">
-              <input  type="hidden" name="qtdPerguntas" value="<?php echo $Questions; ?>">
-              <input  type="hidden" name="qtdAlternativas" value="<?php echo $Alternatives; ?>">
+    <form method ="POST" action="../../controllers/3etapasController.php">
+              <input  type="hidden" id="type" name="type" value="3etapas">
                <input  type="hidden" name="newsId" value="<?php echo $newsId; ?>">
               <div class="mdl-card__supporting-text">
-           
-                <?php for ($i=1;$i<=$Questions;$i++){  ?>
+                   <div id="firstPage">
+                      
                     <br>
                       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input required class="mdl-textfield__input" type="text" name="titulo<?php echo $i; ?>" id="titulo<?php echo $i; ?>">
-                        <label class="mdl-textfield__label" for="titulo<?php echo $i; ?>">Título da Questão</label>
+                        <input required class="mdl-textfield__input" type="text" name="titulo1" id="titulo1">
+                        <label class="mdl-textfield__label" for="titulo1">Título da Sondagem inicial</label>
                         <br>
                         <p style="width:300px">
-                            <input class="mdl-slider mdl-js-slider" type="range" name="dif<?php echo $i; ?>" id="s<?php echo $i; ?>" min="1" max="5" value="1" step="1">
+                            <input class="mdl-slider mdl-js-slider" type="range" name="dif" id='dif'  min="1" max="5" value="1" step="1"></input>
                           </p>
                       </div>
                     
-                   <?php for ($j=1;$j<=$Alternatives;$j++){  ?>
+                   <?php for ($j=1;$j<=5;$j++){  ?>
                      <br>
-                       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-<?php echo $i.$j; ?>">
-                          <input required type="radio" id="option-<?php echo $i.$j; ?>" class="mdl-radio__button" name="check<?php echo $i; ?>" value="<?php echo $i.$j; ?>">
-                           <input required  class="mdl-textfield__input" type="text" name="alter<?php echo $i.$j; ?>" id="alter<?php echo $i.$j; ?>">
-                           <label class="mdl-textfield__label" for="alter<?php echo $i.$j; ?>">Alternativa</label>
+                       <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
+                          <input type="hidden"  class="mdl-radio__button"></input>
+                           <input required  class="mdl-textfield__input" type="text" name="alter<?php echo $j; ?>" id="alter<?php echo $j; ?>">
+                        
                         </label><br><br>
-                     <?php } ?>    
-                <?php } ?>
-              </div>
-                
-                 <hr style="margin-top:">
+                     <?php } ?>   
+                     
+                     <hr style="margin-top:">
                  
-                  
-                  
+                  <input  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="Enviar" type="submit" name="first"  class="btn btn-info btn-fill ">
+
+                   
+                         
+                   </div>
+              </div>
+            </form>    
+                
                  </div>
    
-               <input  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" value="Enviar" type="submit" name="create"  class="btn btn-info btn-fill ">
-              
+
       
 
-        </form>
+       
         
-   
+        
+        
          <div id="myModal" class="modal">
 
               <!-- Modal content -->
@@ -91,7 +90,7 @@
                 <h4 class="mdl-dialog__title">Atenção</h4>
                         <div class="mdl-dialog__content">
                           <p>
-                            Preencha todos os campos, utilize o slider para definir a dificuldade e informe uma resposta correta para cada questão.
+                            Este questionário é composto por 3 etapas: Sondagem inicial, Avaliação de interpretação e dica pedagógica ao final. Sua aplicação se destina mais ao ensino e despertar de raciocínio do que avaliação de conhecimento.
                           </p>
                         </div>
                         <div class="mdl-dialog__actions">
@@ -101,8 +100,12 @@
 
         </div>
         
-             <script>
-             
+        
+        
+        
+       
+        
+        <script>
               $(window).load(function(){ 
               
                     var modal = document.getElementById('myModal');
@@ -117,7 +120,16 @@
                             modal.style.display = "none";
                         }
                     }})
-      </script>     
+            
+            
+            
+        </script>
+        
+        
+        
+        
+        
+            
          
     </div>
   </main>

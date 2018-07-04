@@ -43,7 +43,7 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/helpers/queries.php');
               <div class="mdl-card__supporting-text">
    
                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" name="titulo" id="titulo">
+                    <input class="mdl-textfield__input" maxlength="44" type="text" name="titulo" id="titulo">
                     <label class="mdl-textfield__label" for="titulo">Título</label>
                   </div> 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -85,6 +85,20 @@ include_once($_SERVER['DOCUMENT_ROOT'].'/helpers/queries.php');
                     </select>
                     <label class="mdl-textfield__label" for="avaliac">Método de avaliação</label>
                   </div>
+                  
+                  
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <select class="mdl-textfield__input" id="pref" name="pref">
+                      <option></option>
+                      <?php  $preferences = preferenceList($conn);  ?>
+                      <?php foreach($preferences as $preference){ ?>
+                      <option value="<?php echo $preference['id']?>"><?php echo $preference['nome']?></option>
+                      <?php } ?>
+                    </select>
+                    <label class="mdl-textfield__label" for="pref">Defina o tema</label>
+                  </div> 
+                  
+                 
                                  
                  
   

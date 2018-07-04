@@ -10,11 +10,7 @@
         private $qtdAlternativas;
         private $newsId;
         
-        
-       // public function __construct($name,$email, $password){
-            
-            
-       // }
+
         
         
         public function create($conn,$Post){
@@ -46,27 +42,7 @@
 						
 			}       
             
-      //      $sql="SELECT nome FROM locais WHERE nome='$this->nome'";
-		//	$result=mysqli_query($conn,$sql);
-		//	$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
-		//	if(mysqli_num_rows($result) == 1)
-		//	{
-		//		echo "Local duplicado"; //refazer utilizando ajax
-		//	}
-		//	else
-		//	{
-		//		$query = mysqli_query($conn, "INSERT INTO locais (nome, ltd,lng,url_image,create_time)VALUES ('$this->name', '$this->ltd','$this->lng', '$this->url',null)");
-		//		if($query)
-		//		{
-//
-//
-//					$lastid = mysqli_insert_id($conn);
-//					
-				
-			
-//				}
-//			}
-            
+     
             
         }
         
@@ -105,7 +81,68 @@
 		}
 		
 		
+		
+		public function insertAnswer($conn,$Post){
+			$qtd = $Post['qtd'];
+			$id = $Post['nid'];
+			$arr = [];
 
+			for($i=1;$i<=$qtd;$i++){
+				$enum = $_POST['enunid'.$i];
+				$alt = $_POST['alt'.$i];
+				
+			    mysqli_query($conn, "INSERT INTO questionario_simples_escolhas_users (enunciado_fk,alternativa_fk,user_fk)VALUES ('$enum','$alt','3')");
+
+				$resposta = $this->corrigir($conn,$enum,$alt);
+				array_push($arr, $resposta);
+			}
+			if (session_status() == PHP_SESSION_NONE) {
+				    session_start();
+				}
+			$_SESSION['gab'] = $arr;
+			//$query = http_build_query($arr, '', '&&');
+	
+		header("location:../views/avaliac/resolveResults.php?dd=".$id);	
+	
+			
+		}
+
+		
+		public function corrigir($conn,$Id,$Answer){
+			
+			 $is_correta = $this->checkAltSimples($conn,$Answer);
+			
+			if($is_correta){
+				return 0;
+			}else{
+				
+				$erradas = $Answer;
+				 return $erradas;
+				
+			}
+			
+		}
+		
+		
+				//verifica se determinada (id) alternativa de um questionario simples é correto
+		function checkAltSimples($conn,$id){
+			$sql = "SELECT is_correta FROM questionario_simples_alternativas WHERE id = '$id'";
+			$result = mysqli_query($conn,$sql);
+			$alt = mysqli_fetch_array($result,MYSQLI_ASSOC);
+			
+			if($alt['is_correta'] == '1'){
+				$isanswer = true;
+			}else{
+				$isanswer = false;
+			}
+			
+			return $isanswer;
+			
+		}
+		
+		
+		
+		
 		
 
 

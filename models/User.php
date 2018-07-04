@@ -221,7 +221,7 @@
 		
 		public function login($conn,$Email,$Password){
 		
-			session_start();
+			
 			//if(empty($_POST["username"]) || empty($_POST["password"]))
 	//	{
 	//		$error = "Both fields are required.";
@@ -243,12 +243,13 @@
 			
 			if(mysqli_num_rows($result) == 1)
 			{
+				session_start();
 				$_SESSION['username'] = $row['name']; // Initializing Session
-				header("location: home.php"); // Redirecting To Other Page
+				header("location: ../views/home.php"); // Redirecting To Other Page
 				$_SESSION['errol'] = '';
 			}else
 			{
-				$_SESSION['errol'] = 'Usuário não encontrado'; // retornar erros com front.
+				echo  'Usuário não encontrado'; // retornar erros com front.
 
 			}
 

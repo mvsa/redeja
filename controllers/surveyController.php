@@ -1,6 +1,6 @@
 <?php
 
-include_once "../models/questSimples.php";
+include_once "../models/QuestSimples.php";
 include_once($_SERVER['DOCUMENT_ROOT'].'/db/db.php'); 
    
    
@@ -14,14 +14,13 @@ if($_POST['create']){
         $questSimples = new QuestSimples();
         $questSimples->create($conn,$_POST);
         unset($questSimples);     
-            
-    }
+    
        
         
+        }
+
+
 }
-
-
-
 
 
 ?>

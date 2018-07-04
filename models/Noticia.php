@@ -19,7 +19,7 @@
     
         
         
-        public function create($conn,$Titulo,$Texto,$Url,$Dificuldade,$Local,$UrlI,$Ava){
+        public function create($conn,$Titulo,$Texto,$Url,$Dificuldade,$Local,$UrlI,$Ava,$Pref){
    
         
    
@@ -30,7 +30,7 @@
 			$this->dificuldade = mysqli_real_escape_string($conn, $Dificuldade);
 			$this->local_fk = $Local;
 			$this->url_image = mysqli_real_escape_string($conn, $UrlI);
-        		$this->metodo =($Ava);
+        		$this->metodo = $Ava;
             
         
 				$query = mysqli_query($conn, "INSERT INTO noticias (titulo, texto, url,dificuldade,url_image,create_time)VALUES ('$this->titulo', '$this->texto', '$this->url', '$this->dificuldade','$this->url_image',null)");
@@ -38,13 +38,14 @@
 				{
 
 				$newInserted = mysqli_insert_id($conn);	
-				mysqli_query($conn, "INSERT INTO locais_exercicios (local_fk, exercicio_id,tipo)VALUES ('$this->local_fk','$newInserted','noticia')");
-				
-				if($this->medodo = '1'){
+
+				if($this->metodo == '1'){
+					mysqli_query($conn, "INSERT INTO locais_exercicios (local_fk, exercicio_id,tipo,preference_fk)VALUES ('$this->local_fk','$newInserted','noticia_simples','$Pref')");
 					header("location:../views/avaliac/new.php?dd=".$newInserted);
 				}else{
-					if($this->metodo = '2'){
-						//	header("location:../views/avaliac/new.php");	
+					if($this->metodo == '2'){
+						mysqli_query($conn, "INSERT INTO locais_exercicios (local_fk, exercicio_id,tipo,preference_fk)VALUES ('$this->local_fk','$newInserted','noticia_3etapas','$Pref')");
+						header("location:../views/avaliac/new3Etapas.php?dd=".$newInserted);
 					}
 				}
 				

@@ -51,3 +51,43 @@ CREATE TABLE `questionario_simples_alternativas` (
   PRIMARY KEY (`id`),
   FOREIGN KEY (questao_fk) REFERENCES questionario_simples(id)
 )
+
+CREATE TABLE `questionario_3etapas_1` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `noticia_fk` int (10) NOT NULL,
+   `dificuldade` int (10) NOT NULL, 
+   `enunciado` varchar (200) NOT NULL, 	 
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (notica_fk) REFERENCES noticia(id)
+)
+
+CREATE TABLE `questionario_3etapas_alternativas_1` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `questao_fk` int (10) NOT NULL,
+   `alternativa` varchar (200) NOT NULL, 
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (questao_fk) REFERENCES questionario_3etapas_1(id)
+)
+
+
+
+                value="<?php print urlencode(base64_encode(serialize($array_var))); ?>">
+                
+                /$str_var = $_POST["second"];
+//$array_var = unserialize(base64_decode($str_var));
+//$data = unserialize($array_var);
+
+
+
+
+
+
+<span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="../../views/home.php">Início</a>
+      <a class="mdl-navigation__link" href="../../views/noticia/new.php">Nova Notícia</a>
+      <a class="mdl-navigation__link" href="../../views/location/new.php">Nova Localidade</a>
+      <a class="mdl-navigation__link" href="../../views/preference/new.php">Nova preferência</a>
+      <a class="mdl-navigation__link" href="../../views/task/new.php">Nova atividade</a>
+    </nav>
+    

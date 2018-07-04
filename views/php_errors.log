@@ -42,3 +42,413 @@
 [18-Jun-2018 21:45:30 UTC] PHP Fatal error:  Call to undefined function var_dumo() in /home/ubuntu/workspace/views/avaliac/questBuild.php on line 58
 [18-Jun-2018 21:45:30 UTC] PHP Stack trace:
 [18-Jun-2018 21:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/questBuild.php:0
+[19-Jun-2018 20:05:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/avaliac/new3Etapas.php on line 65
+[20-Jun-2018 22:07:54 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/views/avaliac/new3Etapas1.php on line 53
+[20-Jun-2018 22:18:56 UTC] PHP Fatal error:  Call to undefined function Vvar_dump() in /home/ubuntu/workspace/views/avaliac/new3Etapas1.php on line 3
+[20-Jun-2018 22:18:56 UTC] PHP Stack trace:
+[20-Jun-2018 22:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/new3Etapas1.php:0
+[20-Jun-2018 22:52:00 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/views/avaliac/new3Etapas2.php on line 4
+[20-Jun-2018 22:52:00 UTC] PHP Stack trace:
+[20-Jun-2018 22:52:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/new3Etapas2.php:0
+[20-Jun-2018 22:52:00 UTC] PHP   2. json_decode() /home/ubuntu/workspace/views/avaliac/new3Etapas2.php:4
+[24-Jun-2018 06:01:47 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/helpers/queries.php on line 51
+[24-Jun-2018 06:01:47 UTC] PHP Stack trace:
+[24-Jun-2018 06:01:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/noticia/new.php:0
+[24-Jun-2018 06:25:36 UTC] PHP Fatal error:  Call to undefined function getIntMidi() in /home/ubuntu/workspace/views/task/resolve.php on line 5
+[24-Jun-2018 06:25:36 UTC] PHP Stack trace:
+[24-Jun-2018 06:25:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/task/resolve.php:0
+[28-Jun-2018 05:30:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 56
+[28-Jun-2018 05:30:14 UTC] PHP Stack trace:
+[28-Jun-2018 05:30:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:42:59 UTC] PHP Stack trace:
+[28-Jun-2018 05:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:43:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:43:53 UTC] PHP Stack trace:
+[28-Jun-2018 05:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:45:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 64
+[28-Jun-2018 05:45:21 UTC] PHP Stack trace:
+[28-Jun-2018 05:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[28-Jun-2018 05:49:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 54
+[28-Jun-2018 05:49:24 UTC] PHP Stack trace:
+[28-Jun-2018 05:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[01-Jul-2018 18:47:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[01-Jul-2018 18:47:04 UTC] PHP Stack trace:
+[01-Jul-2018 18:47:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[02-Jul-2018 18:09:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 133
+[02-Jul-2018 18:09:23 UTC] PHP Stack trace:
+[02-Jul-2018 18:09:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 18:09:23 UTC] PHP   2. getAllExe() /home/ubuntu/workspace/views/location/ativList.php:6
+[02-Jul-2018 18:09:23 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:133
+[02-Jul-2018 18:11:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 133
+[02-Jul-2018 18:11:28 UTC] PHP Stack trace:
+[02-Jul-2018 18:11:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 18:11:28 UTC] PHP   2. getAllExe() /home/ubuntu/workspace/views/location/ativList.php:6
+[02-Jul-2018 18:11:28 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:133
+[02-Jul-2018 18:12:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 133
+[02-Jul-2018 18:12:16 UTC] PHP Stack trace:
+[02-Jul-2018 18:12:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 18:12:16 UTC] PHP   2. getAllExe() /home/ubuntu/workspace/views/location/ativList.php:6
+[02-Jul-2018 18:12:16 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:133
+[02-Jul-2018 18:45:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/views/location/ativList.php on line 86
+[02-Jul-2018 19:09:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 55
+[02-Jul-2018 19:09:17 UTC] PHP Stack trace:
+[02-Jul-2018 19:09:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 19:30:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 55
+[02-Jul-2018 19:30:43 UTC] PHP Stack trace:
+[02-Jul-2018 19:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 19:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 55
+[02-Jul-2018 19:31:16 UTC] PHP Stack trace:
+[02-Jul-2018 19:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 20:31:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 55
+[02-Jul-2018 20:31:00 UTC] PHP Stack trace:
+[02-Jul-2018 20:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 21:24:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/task/play.php on line 58
+[02-Jul-2018 21:24:21 UTC] PHP Stack trace:
+[02-Jul-2018 21:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/task/play.php:0
+[02-Jul-2018 21:24:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/task/play.php on line 58
+[02-Jul-2018 21:24:38 UTC] PHP Stack trace:
+[02-Jul-2018 21:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/task/play.php:0
+[02-Jul-2018 22:05:07 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/ubuntu/workspace/views/task/resolve.php on line 9
+[02-Jul-2018 22:05:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/helpers/queries.php on line 67
+[02-Jul-2018 22:05:22 UTC] PHP Stack trace:
+[02-Jul-2018 22:05:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/task/resolve.php:0
+[02-Jul-2018 22:15:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 55
+[02-Jul-2018 22:15:44 UTC] PHP Stack trace:
+[02-Jul-2018 22:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 22:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 57
+[02-Jul-2018 22:20:09 UTC] PHP Stack trace:
+[02-Jul-2018 22:20:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 22:20:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 57
+[02-Jul-2018 22:20:17 UTC] PHP Stack trace:
+[02-Jul-2018 22:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 22:20:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/location/ativList.php on line 57
+[02-Jul-2018 22:20:33 UTC] PHP Stack trace:
+[02-Jul-2018 22:20:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/location/ativList.php:0
+[02-Jul-2018 22:25:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/show.php on line 71
+[02-Jul-2018 22:25:41 UTC] PHP Stack trace:
+[02-Jul-2018 22:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/show.php:0
+[02-Jul-2018 22:36:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 77
+[02-Jul-2018 22:36:27 UTC] PHP Stack trace:
+[02-Jul-2018 22:36:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/show.php:0
+[02-Jul-2018 22:36:27 UTC] PHP   2. getNoticia() /home/ubuntu/workspace/views/avaliac/show.php:6
+[02-Jul-2018 22:36:27 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:77
+[02-Jul-2018 22:37:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 77
+[02-Jul-2018 22:37:02 UTC] PHP Stack trace:
+[02-Jul-2018 22:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/show.php:0
+[02-Jul-2018 22:37:02 UTC] PHP   2. getNoticia() /home/ubuntu/workspace/views/avaliac/show.php:6
+[02-Jul-2018 22:37:02 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:77
+[02-Jul-2018 22:38:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/helpers/queries.php on line 77
+[02-Jul-2018 22:38:01 UTC] PHP Stack trace:
+[02-Jul-2018 22:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/show.php:0
+[02-Jul-2018 22:38:01 UTC] PHP   2. getNoticia() /home/ubuntu/workspace/views/avaliac/show.php:6
+[02-Jul-2018 22:38:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/helpers/queries.php:77
+[03-Jul-2018 01:16:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 55
+[03-Jul-2018 01:16:52 UTC] PHP Stack trace:
+[03-Jul-2018 01:16:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[03-Jul-2018 01:20:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 55
+[03-Jul-2018 01:20:53 UTC] PHP Stack trace:
+[03-Jul-2018 01:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[03-Jul-2018 01:21:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 55
+[03-Jul-2018 01:21:03 UTC] PHP Stack trace:
+[03-Jul-2018 01:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[03-Jul-2018 01:22:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve.php on line 55
+[03-Jul-2018 01:22:54 UTC] PHP Stack trace:
+[03-Jul-2018 01:22:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve.php:0
+[03-Jul-2018 01:46:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 55
+[03-Jul-2018 01:46:36 UTC] PHP Stack trace:
+[03-Jul-2018 01:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:47:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 55
+[03-Jul-2018 01:47:21 UTC] PHP Stack trace:
+[03-Jul-2018 01:47:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:48:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:48:02 UTC] PHP Stack trace:
+[03-Jul-2018 01:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:50:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:50:14 UTC] PHP Stack trace:
+[03-Jul-2018 01:50:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:50:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:50:29 UTC] PHP Stack trace:
+[03-Jul-2018 01:50:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:53:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:53:37 UTC] PHP Stack trace:
+[03-Jul-2018 01:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:54:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:54:52 UTC] PHP Stack trace:
+[03-Jul-2018 01:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:55:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:55:17 UTC] PHP Stack trace:
+[03-Jul-2018 01:55:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:55:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:55:22 UTC] PHP Stack trace:
+[03-Jul-2018 01:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:55:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:55:25 UTC] PHP Stack trace:
+[03-Jul-2018 01:55:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:56:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:56:32 UTC] PHP Stack trace:
+[03-Jul-2018 01:56:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 01:56:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 01:56:50 UTC] PHP Stack trace:
+[03-Jul-2018 01:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:00:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 55
+[03-Jul-2018 02:00:33 UTC] PHP Stack trace:
+[03-Jul-2018 02:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:02:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:02:45 UTC] PHP Stack trace:
+[03-Jul-2018 02:02:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:02:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:02:55 UTC] PHP Stack trace:
+[03-Jul-2018 02:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:03:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:03:00 UTC] PHP Stack trace:
+[03-Jul-2018 02:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:04:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:04:10 UTC] PHP Stack trace:
+[03-Jul-2018 02:04:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:04:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:04:23 UTC] PHP Stack trace:
+[03-Jul-2018 02:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:04:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:04:30 UTC] PHP Stack trace:
+[03-Jul-2018 02:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:05:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:05:08 UTC] PHP Stack trace:
+[03-Jul-2018 02:05:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:05:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:05:32 UTC] PHP Stack trace:
+[03-Jul-2018 02:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:06:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:06:37 UTC] PHP Stack trace:
+[03-Jul-2018 02:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:06:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:06:56 UTC] PHP Stack trace:
+[03-Jul-2018 02:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:07:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:07:11 UTC] PHP Stack trace:
+[03-Jul-2018 02:07:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:07:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:07:19 UTC] PHP Stack trace:
+[03-Jul-2018 02:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:09:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:09:38 UTC] PHP Stack trace:
+[03-Jul-2018 02:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:09:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:09:45 UTC] PHP Stack trace:
+[03-Jul-2018 02:09:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:10:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 52
+[03-Jul-2018 02:10:35 UTC] PHP Stack trace:
+[03-Jul-2018 02:10:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:12:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:12:51 UTC] PHP Stack trace:
+[03-Jul-2018 02:12:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:13:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:13:04 UTC] PHP Stack trace:
+[03-Jul-2018 02:13:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:13:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:13:29 UTC] PHP Stack trace:
+[03-Jul-2018 02:13:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:08 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:27 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:46 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:49 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:53 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:57 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:14:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:14:59 UTC] PHP Stack trace:
+[03-Jul-2018 02:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:15:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 56
+[03-Jul-2018 02:15:02 UTC] PHP Stack trace:
+[03-Jul-2018 02:15:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:20:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:20:34 UTC] PHP Stack trace:
+[03-Jul-2018 02:20:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:26:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:26:58 UTC] PHP Stack trace:
+[03-Jul-2018 02:26:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:27:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:27:09 UTC] PHP Stack trace:
+[03-Jul-2018 02:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:27:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 53
+[03-Jul-2018 02:27:41 UTC] PHP Stack trace:
+[03-Jul-2018 02:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 02:40:25 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 78
+[03-Jul-2018 02:40:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 77
+[03-Jul-2018 02:43:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 82
+[03-Jul-2018 03:33:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 75
+[03-Jul-2018 03:43:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 80
+[03-Jul-2018 03:43:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 88
+[03-Jul-2018 04:27:55 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 87
+[03-Jul-2018 04:27:55 UTC] PHP Stack trace:
+[03-Jul-2018 04:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 04:29:45 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolveResults.php on line 89
+[03-Jul-2018 04:29:45 UTC] PHP Stack trace:
+[03-Jul-2018 04:29:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolveResults.php:0
+[03-Jul-2018 18:17:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[03-Jul-2018 18:17:13 UTC] PHP Stack trace:
+[03-Jul-2018 18:17:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:17:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[03-Jul-2018 18:17:32 UTC] PHP Stack trace:
+[03-Jul-2018 18:17:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:19:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 61
+[03-Jul-2018 18:19:19 UTC] PHP Stack trace:
+[03-Jul-2018 18:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:20:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[03-Jul-2018 18:20:48 UTC] PHP Stack trace:
+[03-Jul-2018 18:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:24:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[03-Jul-2018 18:24:46 UTC] PHP Stack trace:
+[03-Jul-2018 18:24:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:41:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 60
+[03-Jul-2018 18:41:57 UTC] PHP Stack trace:
+[03-Jul-2018 18:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:43:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php on line 59
+[03-Jul-2018 18:43:42 UTC] PHP Stack trace:
+[03-Jul-2018 18:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'enunciado' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 58
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 65
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 100
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 100
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'enunciado' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 58
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 65
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:55:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 66
+[03-Jul-2018 18:55:56 UTC] PHP Stack trace:
+[03-Jul-2018 18:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:58:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:58:09 UTC] PHP Stack trace:
+[03-Jul-2018 18:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 18:58:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 18:58:58 UTC] PHP Stack trace:
+[03-Jul-2018 18:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 19:19:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php on line 59
+[03-Jul-2018 19:19:35 UTC] PHP Stack trace:
+[03-Jul-2018 19:19:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3etpResults.php:0
+[03-Jul-2018 19:33:49 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:33:49 UTC] PHP Stack trace:
+[03-Jul-2018 19:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:33:49 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:33:49 UTC] PHP Stack trace:
+[03-Jul-2018 19:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:33:49 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:33:49 UTC] PHP Stack trace:
+[03-Jul-2018 19:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:33:49 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:33:49 UTC] PHP Stack trace:
+[03-Jul-2018 19:33:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:14 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:36:14 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:14 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:36:14 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:14 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:36:14 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:14 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:36:14 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:36 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:36:36 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:36 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:36:36 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:36 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:36:36 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:36:36 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:36:36 UTC] PHP Stack trace:
+[03-Jul-2018 19:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:38:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:38:09 UTC] PHP Stack trace:
+[03-Jul-2018 19:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:38:09 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:38:09 UTC] PHP Stack trace:
+[03-Jul-2018 19:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:38:09 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 63
+[03-Jul-2018 19:38:09 UTC] PHP Stack trace:
+[03-Jul-2018 19:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
+[03-Jul-2018 19:38:09 UTC] PHP Warning:  Illegal string offset 'alternativa' in /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php on line 64
+[03-Jul-2018 19:38:09 UTC] PHP Stack trace:
+[03-Jul-2018 19:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/views/avaliac/resolve3Etapas3.php:0
