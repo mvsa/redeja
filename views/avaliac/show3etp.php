@@ -60,6 +60,9 @@ $noticia =  getNoticia($conn,$id);
                  <h6><?php echo $noticia['texto']?></h6>
                                     
             </div>  
+             <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+     
+    <input onclick="responsiveVoice.speak('<?php echo $noticia['texto']; ?>','Brazilian Portuguese Female');" type="button" value="Ouvir" />
                 <hr>
 
                 <a style="float:right" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="resolve3Etapas2.php?dd=<?php echo $id; ?>">Próximo</a>

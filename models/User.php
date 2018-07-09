@@ -167,44 +167,7 @@
 		}
 		
 		
-		
-		
-		public function recoverPass(){
-			$sendgrid_apikey = getenv('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');
-		
-
-
-					$curl = curl_init();
-					
-					curl_setopt_array($curl, array(
-					  CURLOPT_URL => "https://api.sendgrid.com/v3/mail/send",
-					  CURLOPT_RETURNTRANSFER => true,
-					  CURLOPT_ENCODING => "",
-					  CURLOPT_MAXREDIRS => 10,
-					  CURLOPT_TIMEOUT => 30,
-					  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-					  CURLOPT_CUSTOMREQUEST => "POST",
-					  CURLOPT_POSTFIELDS => "{\"personalizations\":[{\"to\":[{\"email\":\"mvsa@cin.ufpe.br\",\"name\":\"John Doe\"}],\"subject\":\"Hello, World!\"}],\"from\":{\"email\":\"sam.smith@example.com\",\"name\":\"Sam Smith\"},\"reply_to\":{\"email\":\"sam.smith@example.com\",\"name\":\"Sam Smith\"},\"content\":[{\"value\":\"Olha o email\",\"type\":\"text\"}]}",
-					  CURLOPT_HTTPHEADER => array(
-					    "authorization: Bearer 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",
-					    "content-type: application/json"
-					  ),
-					));
-					
-					$response = curl_exec($curl);
-					$err = curl_error($curl);
-					
-					curl_close($curl);
-					
-					if ($err) {
-					  echo "cURL Error #:" . $err;
-					} else {
-					  echo $response;
-					}
-		
-		
-		
-		}	
+	
         
        
         public function delete($conn,$Id){

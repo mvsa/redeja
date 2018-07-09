@@ -21,6 +21,8 @@ $usern = $_SESSION['username'];
           <a class="mdl-navigation__link mdl-color-text--blue-grey-50" href="../../views/location/new.php"><i class="mdl-color-text--blue-grey-50 material-icons" role="presentation">place</i>Nova Localidade</a>
           <a class="mdl-navigation__link mdl-color-text--blue-grey-50" href="../../views/preference/new.php"><i class="mdl-color-text--blue-grey-50 material-icons" role="presentation">list_alt</i>Nova preferência</a>
           <a class="mdl-navigation__link mdl-color-text--blue-grey-50" href="../../views/task/new.php"><i class="mdl-color-text--blue-grey-50 material-icons" role="presentation">extension</i>Nova atividade</a>
+          <a class="mdl-navigation__link mdl-color-text--blue-grey-50" href="../../views/forum/main.php"><i class="mdl-color-text--blue-grey-50 material-icons" role="presentation">forum</i>Fórum</a>
+
            <br><hr>
         <a class="mdl-navigation__link mdl-color-text--blue-grey-50" href=""><i class="mdl-color-text--blue-grey-50 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span>Configurações</a><br>
         <i class="mdl-color-text--blue-grey-50 material-icons" role="presentation"></i><span class="visuallyhidden">Help</span><br>
