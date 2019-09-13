@@ -1,0 +1,403 @@
+ para aplicação fora do create-react-app
+ yarn é necessário
+ instalar babel = na raiz do projeto{
+     yarn init  (Cria o package json)
+     yarn add @babel/cli
+     yarn add @babel/preset-env (cria o node_modules)
+     yarn add @babel/core
+     colocar a node modules no git ignore
+ }
+ confirar babel{
+     cria na raiz do projeto um arquivo chamado .babelrc
+        dentro dele coloca isso:
+
+
+        {
+            "presets" : ["@babel/preset-env"]
+        }
+
+ }
+
+-------------------------------------------------
+cria um index.html e main.json
+vai no package json
+adiciona a seguinte nova propriedade:
+//isso serve para poder executar comandos pelo terminal
+que fazem mais de uma coisa, nesse exemplo esse scrpit gera o bundle
+ou seja, o aqruivo es6 transformado numa maneir que o navegador entenda
+O que o codigo abaixo está fazendo: executa o Babel pegando o
+arquivo main.js e enviando para um arquivo chamado bundle.js
+
+,"scripts" : {
+    "dev" : "babel ./main.js -o ./bundle.js -w"
+}
+(o -w fica monitorando novas mudanças  e acrescendtando no bundle)
+vai terminal
+e roda: yarn dev (ele criou o arquivo bundle) (esse aqruivo tem a versão "traduzida do js que foi
+escrito no main )
+- no arquivo html referenciar o bundle.js como fonte do JS
+------------------------------------------------------
+
+ class TodoList{
+     constructor(){
+         this.todos=[]
+     }
+     addTodo(){
+         this.todos.push("nvoo todo');
+     }
+     static addTodo(){  //metodos estaticos não enxergam o restante da classe, classes com esses metodos n possuem constructor, servem para retornar algo (soma por exemplo)
+         this.todos.push('novo') // vai dar erro
+     }
+
+ }
+
+class matematica {
+     static soma(a,b){
+         return a+b // vai passar
+     }
+}
+matematica.soma(1,2)
+
+
+
+ const MinhaLista = new TodoList();
+document.getElementById('Botao').onClick = function(){
+    MinhaLista.addTodo();
+}
+
+
+class List extends TodoList{
+    constructor(){
+        super();   /chama o constructor da classe pai
+        this.tipo = 'classe herança';
+    }
+}
+
+-----------------------------------------------------------
+mutar != reatribuir
+
+mutar : const a = {nome:Diego}
+        a.nome = "Cleiton"            //vai passar
+
+reatribuir const a = "diego"
+           a = "joao"        // n passa         
+
+--------------------------------------------------------
+obs: sintaxe antiga, sem usar arrow function (na sessão abaixo eu atualziao0)
+new aarr = arr.map(function(item,index){
+    reutnr item*2
+})
+
+const sum = arr.reduce(function(total,next{
+    return total + next
+})) reduz todo o array para uma unica variavel = neste caso ele estaticos
+somando tudo e atribuindo a uma variavel
+
+.filter
+passa por todos os itens e retorna apenas a aqueles que satisfazem 
+uma condição
+const filtered = arr.filter(function(item){
+    return item %2 === 0
+})
+
+
+.find
+existe tal informação no array?
+
+const finded = arr.fund(function(item){
+    return item === 3
+})
+-----------------------------------------------
+
+const newarr = arr.map((item)=>{
+    return item*2
+})
+
+closePrompt = () =>{
+		this.setState({showModal: false})
+
+	}
+const newarr = arr.map(item=>item*2) // esta realizando return
+
+
+-----------------------------------
+
+function(a=3, b=2){
+    return a+b
+}
+--------------------------------------
+
+desestruturação
+
+const usuario ={
+    nome:'Diego,
+    idade: 23,
+    endereco:{
+        cidade:'Rio do Sul'
+    }
+}
+
+//jeito antigo
+const idade = usuario.idade
+const cidade = usuario.endereco.cidade
+
+//jeito novo
+const {nome,endereco:{cidade}} = usuario
+console.log(cidade)
+
+function mostranome({nome,idade}){
+    console.log(nome,idade)
+}
+
+mostranome(usuario)
+-------------------------------------------------------
+operadores rest/spread
+
+antes, para poder usar é preciso instalar pacotes pois o babel ainda 
+n interpreta(isso esta atualizado?)
+yarn add @babel/plugin-proposal-object-rest-spread
+vai no babelrc e cria um novo array chamado plugins:
+,plugins :["@babel/plugin-proposal-object-rest-spread"]
+para e roda dnv o yarn dev 
+
+//rest = pega o resto das propriedades
+
+const usuario{
+  nome: 'Diego',
+  age : 24 ,
+  empresa: 'asdas' 
+}
+const {nome,...resto} = usuario
+a variavel resto vai receber todo o restante do obj usuario sem o nome
+pois ele vai para {nome} por desestruturação
+
+const arr = [1,2,3,4]
+const {a,b,...c} = arr
+a recebe 1, b receb 2 e c recebe 3,4
+
+(a,b,...params)
+function soma(...params){
+    return params.reduce((total,next) => total +next);
+}
+console.log(soma(1,3,4)) 
+
+
+//spread faz o papel de repassar as informações de um obj ou array para outra
+estruutra de dados
+
+const arr1 = [1,2,3]
+const arr2 = [3,4,1]
+
+const arr3 = [...arr1,...arr2] = copia cada uma das ifnormações do array e poe ai dentro desse []
+const usuario = {
+    nome:'diego',
+    idade:23
+}
+
+const user 2 = {...usuario, idade:56};
+vai ter as mesmas info do user 1 mas tem a idade trocada
+--------------------------------------------------
+template literals
+
+const nome = "diego"
+const idade = 23
+console.log(`Meu nome é ${nome} e tenho ${idade} anos`);
+---------------------------------------------------------------
+
+
+config WebPack
+
+
+servico que disponibiliza uma forma de trabalhar com varios arquivos JS na aplicação
+alem de arquivos js, css, json, e todo esse codigo vai serv
+convertido em um unico bundle
+
+no package.json as dependencias sao apenas para o ambeinte de dev
+no de produção o babel n faz nada, so gera o bundle js, a gente so 
+joga o bundle js.
+muda dependencies para Devdependencies (no package)
+yarn add webpack webpack-cli -D (o -d significa que é apenas para desenvolvimento)
+cria um aqruivo de confiugração do webpack = webpack.config.js
+
+dentro dele:
+
+module.exports={
+    entry:'./main.js',  //arquivo principal
+    output:{
+        path: __dirname,   //dirname se refere ao diretorio que esta, no caso a raiz
+        filename: 'bundle.js
+    },
+    module: {
+        rules:[
+            //o que o webpack faz caso seja necessraio usar mais um arquivo js
+            nesse caso ele vai usar o babel nesses arquvios
+            {
+               test:  /\.js$/,
+               exclude: /node_modules/,
+               use: {
+                   loader:'babel-loader',
+               }
+            }
+        ],
+    },
+};
+
+
+yarn add @babel-loader@8.0.0-beta.0 -D
+
+/**/ expressão regular
+/ / o $ signifca o final
+.\ qlqr caractere
+
+- executar o web pack
+no package json, na parte de scripts, troca o que tem em dev para:
+"webpack --mode=development -w"
+yarn dev 
+
+---------------------------------------------------------------
+importar e exportar
+na criação export
+em outro arquivo importar o componente from o arquivo origem dele
+ 
+ cada arquivo pode ter so 1 export default
+ em react tempo 1 classe por arquivo
+ export default class
+
+exports default no aqruivo que chama não precisa estar referenciado por {x}
+pode ser o nome direto
+
+import * as funcoes from ''
+console.log(funcoes.nomedafunc)
+-----------------------------------------------------------
+webpack dev server
+pasta src fica todo o cod js a ser usado na aplicação
+pasta public todos os arquvios nao monitorados pelo webpack(html,bundle etc)
+
+no webpack config:
+path: __dirname + '/public',
+
+
+yarn add webpack-dev-server -D
+
+dentro do webpack, adiciouma uma nova linha:
+,devServer:{
+    //para onde ele deve abrir o server da aplicação, normalmente aponta para o index
+    contentBase: __dirname + '/public'
+},
+
+
+
+la no package json, na parte de scripts, trocar o dev para:
+"webpack-dev-server --mode=development"
+yarn dev   //projeto agora vai rodar no localhost
+o arquivo bundle deve ser referenciado no html, mas ele n cria fisicamente na pasta
+
+mas para mandar para online (que precisa do arquvio fisico)
+devo fazer:
+la no package.json, na parte de script adiciona:
+,"build": "webpack --mode=production"
+
+yarn build // ai ele gera o bundle
+
+--o devserver monitora as alterações dos arquvos e da um refresh na 
+pagina automaticamente, sem precisar dar f5
+
+------------------------------------------------------------------
+Async/await
+
+instalar 
+yarn add @babel/plugin-transform-async-to-generator -D
+yarn add @babel/polyfill -D
+
+no babelrc na parte de plugins adicionar:
+,"@babel/plugin-transform-async-to-generator",
+
+la no webpack.config.js
+substitui a entrada de entry para :
+['@babel/polyfill','./src/main.js'],
+roda o webpack server dnv
+
+const minhaPromise = () => new Promise((resolve,reject)=>{
+    setTimeout(()=>{resolve('OK')},2000);
+});
+  
+async function executaPromise(){
+    const response = await minhaPromise() //elimina a necessidade de .then .catch
+    const response = await minhaPromise() // a segunda linha os executa apos o await da primeira terminar
+    console.log(response)
+}
+executaPromise();
+
+
+
+ao criar uma async function automaticamente ela vira uma promise
+
+
+
+-------------------
+axios
+yarn add axios
+
+para usar, colocar no arquivo js:
+import axios from 'axios';
+
+
+class Api{                  //pode ser uma função comum tb
+    static async getUserInfo(username){
+      try{  
+        const response = await axios.get(`https://api.github/${username}`);
+        console.log(response)    
+       }catch(err){
+          console.warn('erro na api')
+      }
+    } 
+
+}
+
+Api.getUserInfo('diego3g');
+
+-------------------------------------------
+li clear both, na imagem dentro float left
+
+tentar não colocar trigger de js no lado do html
+mas sim no javascript, atraves dos query selectores
+
+metodo render deve apagar todos os dados ants e rendereizar
+com os novos
+
+.forEach so percorre
+
+arr.forEach(repo =>{
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
